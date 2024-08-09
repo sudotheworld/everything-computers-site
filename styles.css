@@ -17,13 +17,14 @@ header {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
 }
 
 .categories {
     margin-right: 20px;
+    width: 300px;
 }
 
 .category {
@@ -43,7 +44,7 @@ main {
 
 .description-block {
     display: none;
-    max-width: 300px;
+    max-width: 500px;
     border: 1px solid #bdc3c7;
     border-radius: 5px;
     background-color: #ecf0f1;
@@ -54,4 +55,19 @@ main {
     width: 100%;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+.description-text {
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.description-text .title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description-text .small-print {
+    font-size: 14px;
+    color: #7f8c8d;
 }

@@ -50,4 +50,3 @@ categories.forEach(category => {
         descriptionBlock.style.display = 'none';
     });
 });
-

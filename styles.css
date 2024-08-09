@@ -13,6 +13,7 @@ header {
 
 .logo {
     max-width: 200px;
+    height: auto;
 }
 
 .tagline {
@@ -38,7 +39,7 @@ main {
 
 .categories {
     margin-right: 20px;
-    width: 35%; /* Increase the width */
+    width: 40%; /* Adjusted to reduce blank space */
 }
 
 .category {
@@ -47,7 +48,7 @@ main {
     cursor: pointer;
     background-color: #34495e;
     color: #ecf0f1;
-    padding: 15px; /* Increase padding */
+    padding: 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -60,7 +61,7 @@ main {
 
 .description-block {
     display: none;
-    width: 65%; /* Adjust width to fill space */
+    width: 55%; /* Adjusted to reduce blank space */
     border: 1px solid #bdc3c7;
     border-radius: 5px;
     background-color: #ecf0f1;
@@ -110,3 +111,4 @@ main {
         margin-top: 20px;
     }
 }
+
